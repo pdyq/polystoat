@@ -39,7 +39,7 @@ A dumb Stoat translation bot powered by DeepL API. PolyStoat provides seamless m
 1. **Invite the bot** to your server with the required permissions
 2. **Set your DeepL API key** (one-time setup):
    ```
-   ?api your_deepl_api_key_here
+   ps?api your_deepl_api_key_here
    ```
 3. **Start translating!**
 
@@ -47,24 +47,24 @@ A dumb Stoat translation bot powered by DeepL API. PolyStoat provides seamless m
 
 Basic translation:
 ```
-?tr auto EN Bonjour le monde
-?tr EN ES Hello world
-?tr AUTO DE How are you?
+ps?tr auto en-US Bonjour le monde
+ps?tr en es Hello world
+ps?tr auto de How are you?
 ```
 
 List available languages:
 ```
-?languages
+ps?languages
 ```
 
 ## 🤖 Commands
 
 | Command | Description | Permission |
 |---------|-------------|------------|
-| `?tr <from> <to> <text>` | Translate text from one language to another | Everyone |
-| `?languages` or `?langs` | List all supported languages | Everyone |
-| `?api <key>` | Set DeepL API key for the server | Owners |
-| `?help` | Show help message | Everyone |
+| `ps?tr <from> <to> <text>` | Translate text from one language to another | Everyone |
+| `ps?languages` or `ps?langs` | List all supported languages | Everyone |
+| `ps?api <key>` | Set DeepL API key for the server | Owners |
+| `ps?help` | Show help message | Everyone |
 
 ---
 
