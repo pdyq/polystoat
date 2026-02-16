@@ -1,4 +1,4 @@
-# 🤖 PolyStoat - Discord Translation Bot
+# 🤖 PolyStoat - Stoat Translation Bot
 
 A dumb Stoat translation bot powered by DeepL API. PolyStoat provides seamless message translations.
 
@@ -23,8 +23,7 @@ A dumb Stoat translation bot powered by DeepL API. PolyStoat provides seamless m
 
 4. **Edit the `.env` file** with your credentials:
    ```env
-   BOT_TOKEN=your_discord_bot_token_here
-   DEEPL_AUTHKEY=your_deepl_api_key_here
+   BOT_TOKEN=your_stoat_bot_token_here
    # Security - Generate with: node -e "console.log(require('crypto').randomBytes(32).toString('hex'))"
    ENCRYPTION_KEY=your_64_char_hex_encryption_key_here
    ```
